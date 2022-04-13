@@ -1,0 +1,6 @@
+#!bin/bash
+wget https://github.com/CODAIT/spark-bench/releases/download/v99/spark-bench_2.3.0_0.4.0-RELEASE_99.tgz
+tar -xvzf spark-bench_2.1.1_0.2.2-RELEASE_52.tgz
+cd spark-bench_2.1.1_0.2.2-RELEASE_52
+export SPARK_HOME=/usr/lib/spark
+export SPARK_MASTER_HOST=yarn
